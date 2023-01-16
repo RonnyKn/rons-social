@@ -5,16 +5,12 @@ import Register from "./pages/register/Register"
 
 function App() {
   return (
-    <>
-      <Register />
-      <BrowserRouter>
-        <Routes>
-          <Route exact path="/login" elemment={<Login />} />
-          <Route path="/register" elemment={<Register />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
-
 export default App
