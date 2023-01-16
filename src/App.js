@@ -6,7 +6,7 @@ import Register from "./pages/register/Register"
 function App() {
   return (
     <>
-      <Login />
+      <Register />
       <BrowserRouter>
         <Routes>
           <Route exact path="/login" elemment={<Login />} />
