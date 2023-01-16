@@ -1,0 +1,9 @@
+:root{	
+--linear-gradient(rgba(39, 11, 96, 0.5)
+--color: rebeccapurple;
+}
+
+login 
+background-color: rgb(193, 190, 255);
+button 
+   background-color: #938eef;
